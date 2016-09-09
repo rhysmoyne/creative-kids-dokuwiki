@@ -7,3 +7,5 @@
 #DokuWiki
 *cache*
 data/index
+data/locks
+*tmp*

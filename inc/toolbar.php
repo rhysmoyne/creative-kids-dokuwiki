@@ -71,7 +71,7 @@ function toolbar_JSdefines($varname){
                                     'title'  => $lang['qb_h2'],
                                     'icon'   => 'h2.png',
                                     'key'    => '2',
-                                    'open'   => '##',
+                                    'open'   => '## ',
                                     'close'  => '\n',
                                     ),
                                array(
@@ -79,7 +79,7 @@ function toolbar_JSdefines($varname){
                                     'title'  => $lang['qb_h3'],
                                     'icon'   => 'h3.png',
                                     'key'    => '3',
-                                    'open'   => '###',
+                                    'open'   => '### ',
                                     'close'  => '\n',
                                     ),
                                array(
@@ -87,7 +87,7 @@ function toolbar_JSdefines($varname){
                                     'title'  => $lang['qb_h4'],
                                     'icon'   => 'h4.png',
                                     'key'    => '4',
-                                    'open'   => '####',
+                                    'open'   => '#### ',
                                     'close'  => '\n',
                                     ),
                                array(
@@ -95,7 +95,7 @@ function toolbar_JSdefines($varname){
                                     'title'  => $lang['qb_h5'],
                                     'icon'   => 'h5.png',
                                     'key'    => '5',
-                                    'open'   => '#####',
+                                    'open'   => '##### ',
                                     'close'  => '\n',
                                     ),
                             ),
@@ -117,7 +117,7 @@ function toolbar_JSdefines($varname){
                 'icon'   => 'linkextern.png',
                 'open'   => '[',
                 'close'  => ')',
-                'sample' => $lang['qb_extlink'].']http://example.com',
+                'sample' => $lang['qb_extlink'].'](http://example.com',
                 'block'  => false
                 ),
            array(
