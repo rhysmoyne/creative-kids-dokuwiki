@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rhysmoyne/creative-kids-dokuwiki.svg?branch=master)](https://travis-ci.org/rhysmoyne/creative-kids-dokuwiki)
+
 All documentation for DokuWiki is available online
 at http://www.dokuwiki.org/
 
