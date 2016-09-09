@@ -12,5 +12,7 @@ $conf['license'] = 'cc-by-sa';
 $conf['useacl'] = 1;
 $conf['superuser'] = '@admin';
 $conf['disableactions'] = 'register';
+$conf['datadir'] = './data/pages';
+$conf['mediadir'] = './data/pages';
 
 // end auto-generated content
