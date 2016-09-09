@@ -1,3 +1,9 @@
+*.swp
+*.bak
+*.old
+.buildpath
+.project
+.settings/
 #DokuWiki
 *cache*
 data/index
