@@ -301,9 +301,9 @@ function wikiFN($raw_id,$rev='',$clean=true){
     }
 
     if(empty($rev)){
-        $fn = $conf['datadir'].'/'.utf8_encodeFN($id).'.md';
+        $fn = $conf['datadir'].'/'.utf8_encodeFN($id);
     }else{
-        $fn = $conf['olddir'].'/'.utf8_encodeFN($id).'.'.$rev.'.md';
+        $fn = $conf['olddir'].'/'.utf8_encodeFN($id).'.'.$rev;
         if($conf['compression']){
             //test for extensions here, we want to read both compressions
             if (file_exists($fn . '.gz')){
